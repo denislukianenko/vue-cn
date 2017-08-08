@@ -11,20 +11,8 @@
 </head>
 <body>
    
-    <div id="vue-app">
-        <!--Bage image-->
-        <div id="bag" v-bind:class="{ burst: !health }"></div>
+    <div id="vue-app-one">
 
-        <!-- Bag health -->
-        <div id="bag-health">
-            <div v-bind:style="{ width: health + '%'}"></div>
-        </div>
-
-        <!-- Bag controls -->
-        <div id="controls">
-            <button v-show="!ended" v-on:click="punch">Punch</button>
-            <button v-on:click="restart">Restart</button>
-        </div>
     </div>
 
     <script src="app.js"></script>
